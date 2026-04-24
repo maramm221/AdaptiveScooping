@@ -1,8 +1,6 @@
 
 
-# Feeding Project - Quick Start (Professor Guide)
-
-This is the shortest path to run the project.
+# Feeding Project
 
 ## 1) Install the correct Unity version
 - Install **Unity Hub**
@@ -10,7 +8,7 @@ This is the shortest path to run the project.
 
 ## 2) Download and extract code
 1. Download `21184729_code.zip`
-2. Extract it (example: `D:\21184729_code`)
+2. Extract it (example: `(root)\21184729_code`)
 
 ## 3) Open project in Unity
 1. Open Unity Hub
@@ -21,19 +19,19 @@ This is the shortest path to run the project.
 5. Wait for import/compile to finish
 
 ## 4) Open the feeding scene
-In Unity Project window, navigate to the feeding scene and open it.
+In Unity Project window, navigate to '(root)\21184729_code\RCareUnity\Assets\RCareCommon\Example Scenes' and open the 'Feeding' scene.
 
 ## 5) Start OMPL server (terminal)
 Open terminal in project root and run:
 
 ### Windows PowerShell
 ```powershell
-cd D:\21184729_code
+'cd (root)\21184729_code\RCareUnity\Assets\RCareCommon\Scripts\Feeding\Common\'
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install numpy
-python .\Common\ompl_server.py
+python3 ompl_server.py
 ```
 
 Expected message:
