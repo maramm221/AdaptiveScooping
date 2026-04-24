@@ -2,11 +2,9 @@
 
 # Feeding Project Setup and Run Guide
 
-Geometry-aware assistive feeding simulation in Unity (RCareWorld + Kinova Gen3 + Obi grains), with:
+Geometry-aware assistive feeding simulation in Unity with:
 - **Baseline pipeline** (fixed primitives)
 - **Adaptive pipeline** (perception + bite candidates + IK refinement)
-
-This README is a practical "from zero to running trials" guide.
 
 ---
 
