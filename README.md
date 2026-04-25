@@ -27,10 +27,9 @@ Open terminal in project root and run:
 ### Windows PowerShell
 ```powershell
 'cd (root)\21184729_code\RCareUnity\Assets\RCareCommon\Scripts\Feeding\Common\'
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install numpy
+python3 -m venv ~/venv
+source ~/venv/bin/activate
+pip install ompl numpy pybullet
 python3 ompl_server.py
 ```
 
