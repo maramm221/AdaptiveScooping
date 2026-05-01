@@ -102,5 +102,4 @@ All outputs are saved under `(root)/21184729_code/RCareUnity/EvaluationLogs/`, w
 ## Notes
 - If OMPL is not running, planned moves may fail or fall back.
 - If you get Python error `No module named ompl`, install OMPL Python bindings in that environment.
-- Baseline mode anchors dish geometry to the collider/renderer bounds; adaptive mode estimates geometry from the wrist-camera sweep.
 - **If any Inspector field appears empty or unassigned anywhere in the project:** Click the circle icon next to the field and select the matching object from the list, or type the value directly. In most cases only one valid option will be available.
