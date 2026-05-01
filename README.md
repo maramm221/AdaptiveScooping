@@ -2,10 +2,10 @@
 
 # Feeding Project
 
-This README is for the **zipped source-code submission 21184729_code.zip** (Unity setup + run instructions).
+This README is for the **zipped source-code submission 21184729_code.zip** with Unity setup and run instructions.
 The appendix artifacts are provided in a **Github repository**:
 
-- Appendix repository: `[https://github.com/maramm221/AdaptiveScooping]`
+- Appendix repository: `https://github.com/maramm221/AdaptiveScooping`
   
 Contents in appendix repo: final baseline/adaptive CSV evaluation files and generated plate/bowl run images.
 
